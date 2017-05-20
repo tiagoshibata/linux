@@ -414,3 +414,4 @@
 397	common	statx			sys_statx
 398	common	stack_push			sys_stack_push
 399	common	stack_pop			sys_stack_pop
+400 common  hello_world   sys_hello_world
