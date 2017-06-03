@@ -908,5 +908,7 @@ asmlinkage long sys_statx(int dfd, const char __user *path, unsigned flags,
 asmlinkage long sys_stack_push(int value);
 asmlinkage long sys_stack_pop(void);
 asmlinkage long sys_hello_world(void);
+asmlinkage long sys_queue_push(int value);
+asmlinkage long sys_queue_pop(void);
 
 #endif
