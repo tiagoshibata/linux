@@ -912,4 +912,6 @@ asmlinkage long sys_stop_process(int pid);
 asmlinkage long sys_continue_process(void);
 asmlinkage long sys_write_number(int number);
 asmlinkage long sys_read_number(void);
+asmlinkage long sys_write_turn(int turn, bool firstFlag, bool secondFlag);
+asmlinkage struct peterson sys_read_turn(void);
 #endif
