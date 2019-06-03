@@ -422,3 +422,5 @@
 405	common	read_number		sys_read_number
 406	common	write_turn		sys_write_turn
 407	common	read_turn		sys_read_turn
+408	common  write_flag		sys_write_flag
+409	common  read_flag		sys_read_flag
